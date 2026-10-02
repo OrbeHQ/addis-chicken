@@ -1,0 +1,54 @@
+38: rep('<title>Emmpo</title>', [
+39: '<title>Addis Chicken | Farm-Fresh Poultry, Straight From Our Farm</title>',
+40: '<meta name="description" content="Addis Chicken is a vertically integrated Ethiopian poultry brand ΓÇö from our farm and processing plants to
+41: '<meta property="og:title" content="Addis Chicken | Farm-Fresh Poultry" />',
+42: '<meta property="og:description" content="From our farm to your table ΓÇö fresh chicken, cuts, wings, fillets and marinated packs at our Bole 
+43: '<meta property="og:type" content="website" />',
+44: '<meta property="og:site_name" content="Addis Chicken" />',
+46: ].join('\n  '), 'P0 title + meta');
+47: rep('<link rel="icon" type="image/x-icon" sizes="192x192" href="assets/688b78c4178800aa2bf8.ico">', '<link rel="icon" href="data:image/svg+x
+78: rep('<a href="https://emmpo.calculators.cx/quiz" class="fixed-nav__link fixed-nav__link-left text-hover" target="_blank">', '<a href="https:
+79: rep('<a href="https://emmpo.calculators.cx/quiz" class="social-gallery__link" target="_blank">', '<a href="https://maps.google.com/?q=8.9964
+82: rep('>Follow my Instagram</span>', '>Follow us on Instagram</span>', 'P3 instagram label x2');
+83: rep('https://www.tiktok.com/@emmpoquiz', 'https://www.facebook.com/AddisChicken', 'P3 tiktok href');
+85: rep('https://discord.com/invite/K97kh26Yhb', 'https://maps.google.com/?q=8.996429,38.784672', 'P3 discord href');
+89: rep('>Take the Quiz</span>', '>Order Fresh</span>', 'P3 quiz text spans xN');
+90: repRe(/<a href="#form-main" class="header__menu-btn" target="_blank">Take the Quiz<\/a>/g, () => '<a href="#form-main" class="header__menu-b
+91: repRe(/<a href="#form-main" class="footer__title animated"[^>]*>Take the Quiz<\/a>/g, () => '<a href="#form-main" class="footer__title anima
+92: repRe(/<a href="#form-main" class="footer__title[^"]*"[^>]*>\s*Take the Quiz\s*<\/a>/g, m => m.replace(/Take the Quiz/, 'Order Fresh').repla
+93: rep('>Take the Quiz</a>', '>Order Fresh</a>', 'P3 quiz plain anchors');
+94: rep('>Start here</span>', '>Visit the Outlet</span>', 'P3 fixed-nav left text x2');
+97: rep('<span class="main__title-top animated-main">Your Career</span>', '<span class="main__title-top animated-main">Fresh Chicken</span>', 'P
+98: rep('<span class="main__title-elem animated-main">journey</span>', '<span class="main__title-elem animated-main">from our farm</span>', 'P4 
+99: rep('<span class="main__title-elem animated-main">start here</span>', '<span class="main__title-elem animated-main">to your table</span>', '
+109: rep('Explore exciting careers like:', 'On the counter this week:', 'P6 explore title');
+117: rep('Discover your future!', 'Discover your order!', 'P7 discover title');
+125: rep('The <span class="_c-accent">science</span> <br> behind the quiz', 'The <span class="_c-accent">secret</span> <br> behind the freshness'
+130: rep('The person behind the quiz', 'The people behind the brand', 'P9 person title');
+135: rep('It\'s great to see you <br> on <span class="_c-accent">your journey</span> to <br> discovering your', 'It\'s taken years to get <br> yo
+136: rep('<img src="assets/af3020a78265de970759.png" alt="Talents" class="talents__subtitle">', '<span class="_c-accent" style="font-style:inheri
+142: rep('Your interests and values are <br> your guiding stars <span class="_c-accent"> to happiness <br> and success. </span>', 'The shortest p
+148: repRe(/More than 30,000 girls from <span class="_c-accent">193 countries<\/span> have already taken our Quiz\.\s*<\/h2>/, () => 'Every week,
+149: rep(/Here(\u2019|')s what they are saying:/, 'Straight from the counter:', 'P11 community subtitle');
+158: rep('<img src="assets/f71612997f774f56ffe7.png" alt="Future" class="courses-main__subtitle">', '<span class="_c-accent">Dinner</span>', 'P13
+163: // catalog items (title + subtitle pairs)
+164: repRe(/>Sustainable wardrobe<\/h3>\s*<p class="catalog__item-subtitle">Data analytics course<\/p>/, () => '>Crispy Fried</h3>\n             
+165: repRe(/>Skincare<\/h3>\s*<p class="catalog__item-subtitle">Machine learning course<\/p>/, () => '>Whole Broilers</h3>\n                  <p 
+166: repRe(/>Air polution<\/h3>\s*<p class="catalog__item-subtitle">Data analytics course<\/p>/, () => '>Fresh Fillets</h3>\n                  <p
+167: repRe(/>Light polution<\/h3>\s*<p class="catalog__item-subtitle">Data analytics course<\/p>/, () => '>Wings &amp; Drums</h3>\n              
+168: repRe(/>Share your story<\/h3>\s*<p class="catalog__item-subtitle">Video production course<\/p>/, () => '>Marinated</h3>\n                  
+169: repRe(/>Interior design<\/h3>\s*<p class="catalog__item-subtitle">3D modeling course<\/p>/, () => '>Chicken Mince</h3>\n                  <p
+170: repRe(/>Green ecosystems<\/h3>\s*<p class="catalog__item-subtitle">Virtual reality course<\/p>/, () => '>Griddle Packs</h3>\n               
+171: repRe(/>Jewellery design<\/h3>\s*<p class="catalog__item-subtitle">3D modeling course<\/p>/, () => '>Party Trays</h3>\n                  <p 
+178: repRe(/\s*Curious but <br> <span class="_c-accent-2">uncertain<\/span> about your <br> <span class="_c-accent-2">starting point\?<\/span>\s*
+179: rep(' Discover your <br> ideal career in just <br> <span class="_c-accent-2">10 minutes!</span> ', ' Drive over and <br> we pack it <br> <sp
+180: rep(' Take our brief quiz <span class="_c-accent">for personalized career</span> recommendations. ', ' Fresh, frozen, or marinated \u2014 <s
+185: rep('Follow us on <span class="_c-accent">Discord / TikTok / Instagram</span> for updates and community!', 'Follow us on <span class="_c-acc
+213: // Preloader watchdog: if the load event stalls (slow network/headless), release the page
+254: const mustZero = [/emmpo/i, /changers/i, /calculators/i, /Take the Quiz/i, /Career Guidance Quiz/i, /Marija/i, /Politics and Law/i, /vocatio
+256: mustZero.forEach(rx => { const m = html.match(rx); if (m) { const at = html.indexOf(m[0]); bad.push(rx.source + ' :: ' + JSON.stringify(html
+257: if (bad.length) { log.push('ASSERT FAIL x' + bad.length); bad.forEach(b => log.push('  LEFTOVER!! ' + b)); }
+258: else log.push('ASSERT: zero template leftovers');
+259: const mustHave = ['Addis Chicken', 'Fresh Chicken', 'from our farm', 'to your table', 'On the counter this week', 'Crispy', 'Whole', 'broile
+260: const missing = mustHave.filter(x => !html.includes(x));
+262: log.push('MARKERS: ' + (mustHave.length - missing.length) + '/' + mustHave.length);

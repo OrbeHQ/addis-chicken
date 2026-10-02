@@ -1,0 +1,52 @@
+12: const MEDIA = JSON.parse(fs.readFileSync(BUILD + 'media-map.json', 'utf8'));
+97: rep('<span class="main__title-top animated-main">Your Career</span>', '<span class="main__title-top animated-main">Fresh Chicken</span>', 'P4 hero top
+98: rep('<span class="main__title-elem animated-main">journey</span>', '<span class="main__title-elem animated-main">from our farm</span>', 'P4 hero mid')
+99: rep('<span class="main__title-elem animated-main">start here</span>', '<span class="main__title-elem animated-main">to your table</span>', 'P4 hero bo
+100: repRe(/ Guiding You through Career <br> choices and Relevant degrees\s*<\/p>/, () => ' Vertically integrated \u2014 from our own farm to your plate.<b
+103: rep('Explore <br> <span class="_c-accent">careers</span> where <br> you can make <br> a difference!', 'Taste <br> <span class="_c-accent">chicken</spa
+106: rep('Creativity, <br> Sustainability, <br> and Tech.', 'Quality, <br> Care, <br> and Chicken.', 'P5 career heading');
+109: rep('Explore exciting careers like:', 'On the counter this week:', 'P6 explore title');
+110: rep('<span>Multimedia</span> <span>artist</span>', '<span>Crispy</span> <span>pieces</span>', 'P6 item 1 x2');
+111: rep('<span>Sustainable</span> <span>fashion</span>', '<span>Whole</span> <span>broilers</span>', 'P6 item 2 x2');
+112: rep('<span>Renewable</span> <span>energy</span>', '<span>Fresh</span> <span>fillets</span>', 'P6 item 3 x2');
+113: rep('<span>Environmental</span> <span>marketing</span>', '<span>Marinated</span> <span>cuts</span>', 'P6 item 4 x2');
+114: rep('<span>Green</span> <span>entrepreneurship</span>', '<span>Combo</span> <span>packs</span>', 'P6 item 5 x2');
+117: rep('Discover your future!', 'Discover your order!', 'P7 discover title');
+118: repRe(/Find which careers match <br> your personality\.\s*<\/p>/, () => 'Find the cut that fits <br> your kitchen.</p>', 'P7 discover sub');
+119: rep('you will get:', 'in every pack:', 'P7 caption');
+120: repRe(/\n?\s*Take the Quiz and receive <br> recommendations just <br> for You! \s*<\/p>/, () => ' Fresh from the shelf, <br> packed the way <br> you c
+121: rep('<span class="_c-accent">Top 15+</span> tech and sustainability careers for your personality.', '<span class="_c-accent">Farm-direct</span> freshn
+122: rep('<span class="_c-accent">Relevant degree</span> options for each recommended career!', '<span class="_c-accent">Same-day</span> cut, packed and pr
+130: rep('The person behind the quiz', 'The people behind the brand', 'P9 person title');
+131: rep('Hey there!', 'Salam, Addis!', 'P9 person heading');
+132: rep('src="assets/395808beb2e10735b70b.mp4"', 'src="' + V(45542) + '"', 'P9 person video');
+135: rep('It\'s great to see you <br> on <span class="_c-accent">your journey</span> to <br> discovering your', 'It\'s taken years to get <br> your <span c
+136: rep('<img src="assets/af3020a78265de970759.png" alt="Talents" class="talents__subtitle">', '<span class="_c-accent" style="font-style:inherit">ΓÇö to yo
+138: repRe(/studying Politics and Law, worked as <br> human rights advocacy - only to realize <br> <span class="_italic _bold">my true passion lies in Crea
+139: rep(/Now, I(\u2019|')m all about helping <br> you thrive!/, "Now, we're all about <br> feeding Addis right!", 'P10 talents item');
+140: rep('With years of experience', 'With our own farm, plants,', 'P10 talents heading 2');
+141: repRe(/providing online education, I(\u2019|')ve learned <br> that the key to supporting you is <span class="_italic _bold">helping <br> you uncover<\
+142: rep('Your interests and values are <br> your guiding stars <span class="_c-accent"> to happiness <br> and success. </span>', 'The shortest path from <
+148: repRe(/More than 30,000 girls from <span class="_c-accent">193 countries<\/span> have already taken our Quiz\.\s*<\/h2>/, () => 'Every week, <span cla
+149: rep(/Here(\u2019|')s what they are saying:/, 'Straight from the counter:', 'P11 community subtitle');
+152: rep('Are you a girl who loves technology <br> and creativity?', 'Who is cooking a fresh dinner <br> in Addis tonight?', 'P12 social text 1');
+153: rep('So go out there and make <br> something amazing!', 'So come stock up and make <br> something amazing!', 'P12 social text 2');
+154: rep('This will help you make a more informed <br> decision about your future career.', 'This is how Addis <br> eats fresher for less.', 'P12 social te
+157: rep('>Build Your</h2>', '>Build Your</h2>', 'P13 keep Build Your (sanity)');
+158: rep('<img src="assets/f71612997f774f56ffe7.png" alt="Future" class="courses-main__subtitle">', '<span class="_c-accent">Dinner</span>', 'P13 Future wo
+159: rep('>One Course at a Time<', '>One Cut at a Time<', 'P13 courses text');
+160: rep('>Tech Life Hacks</h2>', '>Everyday Cuts</h2>', 'P13 catalog group 1');
+161: rep('>Beyond today</h2>', '>Prepared &amp; Ready</h2>', 'P13 catalog group 2');
+162: rep('>Creativity crew</h2>', '>For The Table</h2>', 'P13 catalog group 3');
+164: repRe(/>Sustainable wardrobe<\/h3>\s*<p class="catalog__item-subtitle">Data analytics course<\/p>/, () => '>Crispy Fried</h3>\n                  <p cl
+165: repRe(/>Skincare<\/h3>\s*<p class="catalog__item-subtitle">Machine learning course<\/p>/, () => '>Whole Broilers</h3>\n                  <p class="cat
+166: repRe(/>Air polution<\/h3>\s*<p class="catalog__item-subtitle">Data analytics course<\/p>/, () => '>Fresh Fillets</h3>\n                  <p class="ca
+167: repRe(/>Light polution<\/h3>\s*<p class="catalog__item-subtitle">Data analytics course<\/p>/, () => '>Wings &amp; Drums</h3>\n                  <p cla
+168: repRe(/>Share your story<\/h3>\s*<p class="catalog__item-subtitle">Video production course<\/p>/, () => '>Marinated</h3>\n                  <p class="
+169: repRe(/>Interior design<\/h3>\s*<p class="catalog__item-subtitle">3D modeling course<\/p>/, () => '>Chicken Mince</h3>\n                  <p class="ca
+170: repRe(/>Green ecosystems<\/h3>\s*<p class="catalog__item-subtitle">Virtual reality course<\/p>/, () => '>Griddle Packs</h3>\n                  <p clas
+171: repRe(/>Jewellery design<\/h3>\s*<p class="catalog__item-subtitle">3D modeling course<\/p>/, () => '>Party Trays</h3>\n                  <p class="cat
+172: rep('>Click</span>', '>Pick</span>', 'P13 item buttons x16');
+175: repRe(/href="(?:sustainable-wardrobe|skincare|air-polution|light-polution|share-your-story|interior-design|green-ecosystems|jewellery-design)\.html"/g
+183: rep('>Emmpo</div>', '>Addis Chicken</div>', 'P15 copyright x2');
+184: rep('Best, Marija', 'Best, Addis Chicken', 'P15 modal sign');

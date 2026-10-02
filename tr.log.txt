@@ -1,0 +1,128 @@
+P0 title + meta: 1
+P0 favicon: 1
+P0 font preloads x3: 3
+P0 main.js tag (inlined later): 1
+P0 cloudflare beacon: 1
+P1 font 07070ee11dc38bfbd060.woff: 1
+P1 font b44b93a780ecd8dbafec.woff: 1
+P1 font bd8de66be4175fed48a7.woff: 1
+P1 font c77ea51aaaf5f15bd55d.woff: 1
+P1 font dd34dea82ffd23ec2838.woff: 1
+P1 css remaining asset refs (kept local): 9
+P1 inline css: 1
+P2 mail stub: 1
+P3 header logo: 2
+P3 preloader text: 1
+P3 fixed-nav left -> maps: 1
+P3 gallery link -> maps: 1
+P3 instagram href x2: 3
+P3 instagram label x2: 2
+P3 tiktok href: 2
+P3 tiktok label x2: 4
+P3 discord href: 2
+P3 discord label x2: 4
+P3 quiz hrefs rest: 9
+P3 quiz text spans xN: 8
+P3 header menu-btn text x2: 2
+P3 footer title 1: 1
+P3 footer titles rest: 1
+P3 quiz plain anchors: 1
+P3 fixed-nav left text x2: 2
+P4 hero top: 1
+P4 hero mid: 1
+P4 hero bottom: 1
+P4 hero sub: 1
+P5 career h2: 1
+undefined: 1
+undefined: 1
+P5 career heading: 1
+P6 explore title: 1
+P6 item 1 x2: 2
+P6 item 2 x2: 2
+P6 item 3 x2: 2
+P6 item 4 x2: 2
+P6 item 5 x2: 2
+P7 discover title: 1
+P7 discover sub: 1
+P7 caption: 1
+P7 discover text: 1
+P7 discover card 1: 1
+P7 discover card 2: 1
+P8 science title: 1
+undefined: 1
+P8 science text: 1
+P9 person title: 1
+P9 person heading: 1
+P9 person video: 1
+P10 talents title: 1
+P10 talents wordart -> text: 1
+undefined: 1
+P10 talents text 1: 1
+P10 talents item: 2
+P10 talents heading 2: 1
+P10 talents text 2: 2
+P10 talents small title: 1
+undefined: 1
+undefined: 1
+undefined: 1
+P11 community title: 1
+P11 community subtitle: 2
+P12 social text 1: 1
+P12 social text 2: 1
+P12 social text 4: 1
+P13 keep Build Your (sanity): 1
+P13 Future wordart -> text: 1
+P13 courses text: 1
+P13 catalog group 1: 1
+P13 catalog group 2: 1
+P13 catalog group 3: 1
+P13 cat 1: 1
+P13 cat 2: 1
+P13 cat 3: 1
+P13 cat 4: 1
+P13 cat 5: 1
+P13 cat 6: 1
+P13 cat 7: 1
+P13 cat 8: 1
+P13 item buttons x16: 16
+P13 catalog page links x8: 8
+P14 info title: 1
+P14 info heading: 1
+P14 info text: 1
+P15 copyright x2: 2
+P15 modal sign: 1
+undefined: 1
+P16 careerBox -> assets/careerBox.jpg: 1
+P16 explore1 -> assets/explore1.jpg: 1
+P16 explore2 -> assets/explore2.jpg: 1
+P16 explore3 -> assets/explore3.jpg: 1
+P16 explore4 -> assets/explore4.jpg: 1
+P16 explore5 -> assets/explore5.jpg: 1
+P16 discover1 -> assets/discover1.jpg: 1
+P16 discover2 -> assets/discover2.jpg: 1
+P16 person1 -> assets/person1.jpg: 1
+P16 person2 -> assets/person2.jpg: 1
+P16 talents1 -> assets/talents1.jpg: 1
+P16 talents2 -> assets/talents2.jpg: 1
+P16 talents3 -> assets/talents3.jpg: 1
+P16 social1 -> assets/social1.jpg: 1
+P16 social2 -> assets/social2.jpg: 1
+P16 social3 -> assets/social3.jpg: 1
+P16 social4 -> assets/social4.jpg: 1
+P16 social5 -> assets/social5.jpg: 1
+P16 info -> assets/info.jpg: 1
+P16 modal -> assets/modal.jpg: 1
+P16 coursesBg -> assets/coursesBg.jpg: 1
+P16 coursesBg -> assets/coursesBg.jpg: 1
+P16 socialMobile -> assets/socialMobile.jpg: 1
+P16 careerImg1 -> assets/careerImg1.jpg: 1
+P16 careerImg2 -> assets/careerImg2.jpg: 1
+P16 careerImg3 -> assets/careerImg3.jpg: 1
+P16 science1 -> assets/science1.jpg: 1
+P16 science2 -> assets/science2.jpg: 1
+P16 science3 -> assets/science3.jpg: 1
+P16 scienceBig -> assets/scienceBig.jpg: 1
+ASSERT: zero template leftovers
+MARKERS: 32/32
+COUNTS {"sections":13,"imgs":80,"scripts":2,"forms":2,"localAssetRefs":158,"localFoodRefs":30}
+WROTE C:/Users/anani/Playground/addis-chicken/index.pretty.html (576524 bytes)
